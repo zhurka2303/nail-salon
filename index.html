@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NAIL KRIS — Beauty Salon · Москва</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#" class="logo">
+        <div class="logo__icon">NK</div>
+        <div class="logo__text">
+          <span class="logo__main">NAIL KRIS</span>
+          <span class="logo__sub">beauty salon</span>
+        </div>
+      </a>
+      <nav class="nav">
+        <a href="#branches">Филиалы</a>
+        <a href="#services">Услуги</a>
+        <a href="#team">Мастера</a>
+        <a href="#about">О нас</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <a href="#booking" class="btn-header">Записаться</a>
+      <button class="burger" id="burger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#branches">Филиалы</a>
+      <a href="#services">Услуги</a>
+      <a href="#team">Мастера</a>
+      <a href="#about">О нас</a>
+      <a href="#contacts">Контакты</a>
+      <a href="#booking" class="mobile-cta">Записаться</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg">
+      <div class="hero__orb hero__orb--1"></div>
+      <div class="hero__orb hero__orb--2"></div>
+      <div class="hero__orb hero__orb--3"></div>
+      <div class="hero__grid"></div>
+    </div>
+    <div class="hero__content">
+      <div class="hero__eyebrow">
+        <span class="hero__dot"></span>
+        <span>Москва · Ногтевой сервис · с 2015 года</span>
+      </div>
+      <h1 class="hero__title">
+        <span class="line">NAIL</span>
+        <span class="line line--stroke">KRIS</span>
+        <span class="line line--small">BEAUTY SALON</span>
+      </h1>
+      <p class="hero__desc">
+        Два уютных салона в Москве — у метро Отрадное и Бабушкинская.<br>
+        Маникюр, педикюр и уход за ногтями с заботой о каждой детали.
+      </p>
+      <div class="hero__btns">
+        <a href="#booking" class="btn btn--primary">Записаться онлайн</a>
+        <a href="#branches" class="btn btn--secondary">Выбрать филиал</a>
+      </div>
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <strong>2015</strong>
+          <span>год основания</span>
+        </div>
+        <div class="hero__divider"></div>
+        <div class="hero__stat">
+          <strong>2</strong>
+          <span>филиала</span>
+        </div>
+        <div class="hero__divider"></div>
+        <div class="hero__stat">
+          <strong>9+</strong>
+          <span>мастеров</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <div class="hero__scroll-line"></div>
+      <span>scroll</span>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee">
+    <div class="marquee__inner">
+      <span>МАНИКЮР</span><span class="mx">✦</span>
+      <span>ПЕДИКЮР</span><span class="mx">✦</span>
+      <span>NAIL ART</span><span class="mx">✦</span>
+      <span>ГЕЛЬ-ЛАК</span><span class="mx">✦</span>
+      <span>НАРАЩИВАНИЕ</span><span class="mx">✦</span>
+      <span>БРОВИСТ</span><span class="mx">✦</span>
+      <span>МАНИКЮР</span><span class="mx">✦</span>
+      <span>ПЕДИКЮР</span><span class="mx">✦</span>
+      <span>NAIL ART</span><span class="mx">✦</span>
+      <span>ГЕЛЬ-ЛАК</span><span class="mx">✦</span>
+      <span>НАРАЩИВАНИЕ</span><span class="mx">✦</span>
+      <span>БРОВИСТ</span><span class="mx">✦</span>
+    </div>
+  </div>
+
+  <!-- BRANCHES -->
+  <section class="branches" id="branches">
+    <div class="container">
+      <div class="section-head">
+        <p class="tag">Филиалы</p>
+        <h2 class="section-title">ВЫБЕРИТЕ <em>ФИЛИАЛ</em></h2>
+      </div>
+      <div class="branches__grid">
+        <div class="branch-card">
+          <div class="branch-card__num">01</div>
+          <div class="branch-card__metro">
+            <div class="metro-dot"></div>
+            <span>м. Отрадное</span>
+          </div>
+          <h3 class="branch-card__addr">Северный бульвар, д. 2</h3>
+          <p class="branch-card__desc">Просторный современный салон рядом с метро. Удобная парковка.</p>
+          <div class="branch-card__hours">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Пн–Вс: 10:00 – 21:00
+          </div>
+          <a href="#booking" class="btn btn--primary btn--sm">Записаться в этот филиал</a>
+        </div>
+        <div class="branch-card branch-card--accent">
+          <div class="branch-card__num">02</div>
+          <div class="branch-card__metro">
+            <div class="metro-dot"></div>
+            <span>м. Бабушкинская</span>
+          </div>
+          <h3 class="branch-card__addr">ул. Менжинского, д. 32/3</h3>
+          <p class="branch-card__desc">Уютный салон в жилом квартале. Тихое место для отдыха и красоты.</p>
+          <div class="branch-card__hours">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Пн–Вс: 10:00 – 21:00
+          </div>
+          <a href="#booking" class="btn btn--outline btn--sm">Записаться в этот филиал</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head">
+        <p class="tag">Услуги</p>
+        <h2 class="section-title">НАШИ <em>УСЛУГИ</em></h2>
+        <p class="section-desc">Профессиональный уход за ногтями с использованием безопасных материалов и стерильных инструментов.</p>
+      </div>
+      <div class="tabs">
+        <button class="tab active" data-tab="manicure">Маникюр</button>
+        <button class="tab" data-tab="pedicure">Педикюр</button>
+        <button class="tab" data-tab="design">Дизайн</button>
+        <button class="tab" data-tab="buildup">Наращивание</button>
+        <button class="tab" data-tab="brows">Брови</button>
+      </div>
+
+      <div class="tab-pane active" id="manicure">
+        <div class="services-intro">
+          <p>Безупречный уход за руками — от классики до сложных дизайнов. Используем аппаратную и европейскую технику.</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-item service-item--hero">
+            <div class="service-item__badge">Хит</div>
+            <div class="service-item__body">
+              <h3>Классический маникюр</h3>
+              <p>Обработка кутикулы, придание формы, полировка. Основа ухоженных рук.</p>
+              <div class="service-item__footer">
+                <span class="price">от 1 200 ₽</span>
+                <span class="duration">⏱ 60 мин</span>
+              </div>
+            </div>
+            <a href="#booking" class="btn btn--primary btn--sm">Записаться</a>
+          </div>
+          <div class="service-item">
+            <h3>Маникюр с гель-лаком</h3>
+            <p>Стойкое покрытие 3–4 недели без сколов и отслоек.</p>
+            <div class="service-item__footer">
+              <span class="price">от 2 000 ₽</span>
+              <span class="duration">⏱ 75 мин</span>
+            </div>
+          </div>
+          <div class="service-item">
+            <h3>Аппаратный маникюр</h3>
+            <p>Бережная обработка фрезой. Идеально для чувствительной кожи.</p>
+            <div class="service-item__footer">
+              <span class="price">от 1 500 ₽</span>
+              <span class="duration">⏱ 60 мин</span>
+            </div>
+          </div>
+          <div class="service-item">
+            <h3>Европейский маникюр</h3>
+            <p>Безлезвийная техника — без порезов, бережно и точно.</p>
+            <div class="service-item__footer">
+              <span class="price">от 1 800 ₽</span>
+              <span class="duration">⏱ 70 мин</span>
+            </div>
+          </div>
+          <div class="service-item">
+            <h3>SPA-маникюр</h3>
+            <p>Ванночка, скраб, маска, массаж рук — полное восстановление.</p>
+            <div class="service-item__footer">
+              <span class="price">от 2 500 ₽</span>
+              <span class="duration">⏱ 90 мин</span>
+            </div>
+          </div>
+          <div class="service-item service-item--dark">
+            <div class="service-nails-art">
+              <div class="nail-demo n1"></div>
+              <div class="nail-demo n2"></div>
+              <div class="nail-demo n3"></div>
+              <div class="nail-demo n4"></div>
+              <div class="nail-demo n5"></div>
+            </div>
+            <p>Профессиональный результат</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane" id="pedicure">
+        <div class="services-intro">
+          <p>Красота и здоровье ног в комфортных условиях. Используем только качественные средства ухода.</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-item service-item--hero">
+            <div class="service-item__badge">Популярно</div>
+            <div class="service-item__body">
+              <h3>Классический педикюр</h3>
+              <p>Обработка, шлифовка, нанесение покрытия на ноги.</p>
+              <div class="service-item__footer">
+                <span class="price">от 1 800 ₽</span>
+                <span class="duration">⏱ 75 мин</span>
+              </div>
+            </div>
+            <a href="#booking" class="btn btn--primary btn--sm">Записаться</a>
+          </div>
+          <div class="service-item">
+            <h3>Педикюр с гель-лаком</h3>
+            <p>Стойкое покрытие до 4–5 недель. Эффект надолго.</p>
+            <div class="service-item__footer">
+              <span class="price">от 2 500 ₽</span>
+              <span class="duration">⏱ 90 мин</span>
+            </div>
+          </div>
+          <div class="service-item">
+            <h3>Аппаратный педикюр</h3>
+            <p>Сухая обработка без воды. Безопасно и гигиенично.</p>
+            <div class="service-item__footer">
+              <span class="price">от 2 200 ₽</span>
+              <span class="duration">⏱ 80 мин</span>
+            </div>
+          </div>
+          <div class="service-item">
+            <h3>SPA-педикюр</h3>
+            <p>Ванночка с морской солью, пилинг, маска и массаж ног.</p>
+            <div class="service-item__footer">
+              <span class="price">от 3 200 ₽</span>
+              <span class="duration">⏱ 110 мин</span>
+            </div>
+          </div>
+          <div class="service-item">
+            <h3>Лечебный педикюр</h3>
+            <p>Специальный уход при трещинах, натоптышах, сухости.</p>
+            <div class="service-item__footer">
+              <span class="price">от 2 800 ₽</span>
+              <span class="duration">⏱ 90 мин</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane" id="design">
+        <div class="services-intro">
+          <p>Дизайн ногтей — от минимализма до сложных авторских работ. Воплощаем любые идеи.</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-item">
+            <h3>Простой дизайн</h3>
+            <p>Французский маникюр, градиент, базовые фигуры.</p>
+            <div class="service-item__footer">
+              <span class="price">от 300 ₽/ноготь</span>
+              <span class="duration">⏱ от 15 мин</span>
+            </div>
+          </div>
+          <div class="service-item service-item--hero">
+            <div class="service-item__badge">Авторская работа</div>
+            <div class="service-item__body">
+              <h3>Nail Art (полное оформление)</h3>
+              <p>Роспись кистью, 3D-элементы, стразы, фольга, геометрия. Уникальный дизайн по вашему референсу.</p>
+              <div class="service-item__footer">
+                <span class="price">от 4 000 ₽</span>
+                <span class="duration">⏱ от 2 часов</span>
+              </div>
+            </div>
+            <a href="#booking" class="btn btn--primary btn--sm">Записаться</a>
+          </div>
+          <div class="service-item">
+            <h3>Сложный дизайн</h3>
+            <p>3D-элементы, стразы, фольга, сложная роспись.</p>
+            <div class="service-item__footer">
+              <span class="price">от 600 ₽/ноготь</span>
+              <span class="duration">⏱ от 30 мин</span>
+            </div>
+          </div>
+          <div class="service-item">
+            <h3>Хромирование и втирка</h3>
+            <p>Зеркальный блеск и хромовый эффект на всех ногтях.</p>
+            <div class="service-item__footer">
+              <span class="price">от 800 ₽</span>
+              <span class="duration">⏱ 20 мин</span>
+            </div>
+          </div>
+          <div class="service-item">
+            <h3>Стразы и декор</h3>
+            <p>Кристаллы, пайетки, ракушки, сухоцветы.</p>
+            <div class="service-item__footer">
+              <span class="price">от 200 ₽</span>
+              <span class="duration">⏱ от 10 мин</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane" id="buildup">
+        <div class="services-intro">
+          <p>Наращивание и укрепление для длинных, прочных и красивых ногтей.</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-item service-item--hero">
+            <div class="service-item__badge">Популярно</div>
+            <div class="service-item__body">
+              <h3>Наращивание на типсы</h3>
+              <p>Моделирование любой формы и длины. Натуральный результат.</p>
+              <div class="service-item__footer">
+                <span class="price">от 3 500 ₽</span>
+                <span class="duration">⏱ 2–3 часа</span>
+              </div>
+            </div>
+            <a href="#booking" class="btn btn--primary btn--sm">Записаться</a>
+          </div>
+          <div class="service-item">
+            <h3>Наращивание на форму</h3>
+            <p>Индивидуальная форма без типс. Максимально естественно.</p>
+            <div class="service-item__footer">
+              <span class="price">от 4 200 ₽</span>
+              <span class="duration">⏱ 3 часа</span>
+            </div>
+          </div>
+          <div class="service-item">
+            <h3>Укрепление гелем</h3>
+            <p>Защита тонких ногтей с сохранением гибкости.</p>
+            <div class="service-item__footer">
+              <span class="price">от 1 500 ₽</span>
+              <span class="duration">⏱ 60 мин</span>
+            </div>
+          </div>
+          <div class="service-item">
+            <h3>Коррекция наращивания</h3>
+            <p>Восстановление формы и покрытия по мере отрастания.</p>
+            <div class="service-item__footer">
+              <span class="price">от 2 500 ₽</span>
+              <span class="duration">⏱ 90 мин</span>
+            </div>
+          </div>
+          <div class="service-item">
+            <h3>Снятие наращивания</h3>
+            <p>Безопасное снятие с минимальным воздействием.</p>
+            <div class="service-item__footer">
+              <span class="price">от 800 ₽</span>
+              <span class="duration">⏱ 40 мин</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane" id="brows">
+        <div class="services-intro">
+          <p>Коррекция и оформление бровей — завершающий штрих вашего образа.</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-item service-item--hero">
+            <div class="service-item__badge">Мастер Анна</div>
+            <div class="service-item__body">
+              <h3>Коррекция бровей</h3>
+              <p>Подбор формы и коррекция под ваш тип лица. Нить, воск или пинцет.</p>
+              <div class="service-item__footer">
+                <span class="price">от 700 ₽</span>
+                <span class="duration">⏱ 30 мин</span>
+              </div>
+            </div>
+            <a href="#booking" class="btn btn--primary btn--sm">Записаться</a>
+          </div>
+          <div class="service-item">
+            <h3>Окрашивание бровей</h3>
+            <p>Хна или краска. Стойкое равномерное окрашивание.</p>
+            <div class="service-item__footer">
+              <span class="price">от 800 ₽</span>
+              <span class="duration">⏱ 40 мин</span>
+            </div>
+          </div>
+          <div class="service-item">
+            <h3>Коррекция + окрашивание</h3>
+            <p>Комплексный уход — форма и цвет в одном визите.</p>
+            <div class="service-item__footer">
+              <span class="price">от 1 300 ₽</span>
+              <span class="duration">⏱ 60 мин</span>
+            </div>
+          </div>
+          <div class="service-item">
+            <h3>Ламинирование бровей</h3>
+            <p>Укладка и фиксация волосков. Эффект держится до 6 недель.</p>
+            <div class="service-item__footer">
+              <span class="price">от 2 000 ₽</span>
+              <span class="duration">⏱ 60 мин</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="services__cta">
+        <p>Не знаете, какая услуга подойдёт вам? Напишите — поможем выбрать.</p>
+        <a href="#booking" class="btn btn--primary">Записаться на консультацию</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="team" id="team">
+    <div class="container">
+      <div class="section-head">
+        <p class="tag">Наши мастера</p>
+        <h2 class="section-title">КОМАНДА <em>ПРОФЕССИОНАЛОВ</em></h2>
+      </div>
+      <div class="team__branches">
+        <div class="team__branch">
+          <div class="team__branch-label">
+            <div class="metro-dot"></div>
+            <span>м. Отрадное — Северный бульвар 2</span>
+          </div>
+          <div class="masters-grid">
+            <div class="master-card">
+              <div class="master-card__avatar">АЙ</div>
+              <div class="master-card__info">
+                <h4>Айка</h4>
+                <span>мастер ногтевого сервиса</span>
+              </div>
+              <a href="#booking" class="master-card__btn">Записаться</a>
+            </div>
+            <div class="master-card">
+              <div class="master-card__avatar">АН</div>
+              <div class="master-card__info">
+                <h4>Анастасия</h4>
+                <span>мастер ногтевого сервиса</span>
+              </div>
+              <a href="#booking" class="master-card__btn">Записаться</a>
+            </div>
+            <div class="master-card">
+              <div class="master-card__avatar">ВА</div>
+              <div class="master-card__info">
+                <h4>Валентина</h4>
+                <span>мастер ногтевого сервиса</span>
+              </div>
+              <a href="#booking" class="master-card__btn">Записаться</a>
+            </div>
+            <div class="master-card">
+              <div class="master-card__avatar">ДА</div>
+              <div class="master-card__info">
+                <h4>Дарья</h4>
+                <span>мастер ногтевого сервиса</span>
+              </div>
+              <a href="#booking" class="master-card__btn">Записаться</a>
+            </div>
+            <div class="master-card">
+              <div class="master-card__avatar">ЕЛ</div>
+              <div class="master-card__info">
+                <h4>Елена</h4>
+                <span>мастер ногтевого сервиса</span>
+              </div>
+              <a href="#booking" class="master-card__btn">Записаться</a>
+            </div>
+            <div class="master-card">
+              <div class="master-card__avatar">ОК</div>
+              <div class="master-card__info">
+                <h4>Оксана</h4>
+                <span>мастер ногтевого сервиса</span>
+              </div>
+              <a href="#booking" class="master-card__btn">Записаться</a>
+            </div>
+            <div class="master-card master-card--special">
+              <div class="master-card__avatar master-card__avatar--gold">АН</div>
+              <div class="master-card__info">
+                <h4>Анна</h4>
+                <span>бровист</span>
+              </div>
+              <a href="#booking" class="master-card__btn">Записаться</a>
+            </div>
+          </div>
+        </div>
+        <div class="team__branch">
+          <div class="team__branch-label">
+            <div class="metro-dot"></div>
+            <span>м. Бабушкинская — ул. Менжинского 32/3</span>
+          </div>
+          <div class="masters-grid">
+            <div class="master-card">
+              <div class="master-card__avatar">ГУ</div>
+              <div class="master-card__info">
+                <h4>Гуля</h4>
+                <span>мастер ногтевого сервиса</span>
+              </div>
+              <a href="#booking" class="master-card__btn">Записаться</a>
+            </div>
+            <div class="master-card">
+              <div class="master-card__avatar">ОЛ</div>
+              <div class="master-card__info">
+                <h4>Ольга</h4>
+                <span>мастер ногтевого сервиса</span>
+              </div>
+              <a href="#booking" class="master-card__btn">Записаться</a>
+            </div>
+            <div class="master-card master-card--special">
+              <div class="master-card__avatar master-card__avatar--gold">АН</div>
+              <div class="master-card__info">
+                <h4>Анна</h4>
+                <span>бровист</span>
+              </div>
+              <a href="#booking" class="master-card__btn">Записаться</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about__bg-text">NAIL KRIS</div>
+    <div class="container">
+      <div class="about__inner">
+        <div class="about__visual">
+          <div class="about__card about__card--1">
+            <span class="about__card-num">2015</span>
+            <span>год основания</span>
+          </div>
+          <div class="about__card about__card--2">
+            <span class="about__card-num">2</span>
+            <span>филиала в Москве</span>
+          </div>
+          <div class="about__card about__card--3">
+            <span class="about__card-num">9+</span>
+            <span>мастеров в команде</span>
+          </div>
+          <div class="about__orb"></div>
+        </div>
+        <div class="about__content">
+          <p class="tag">О нас</p>
+          <h2 class="section-title">МЫ СОЗДАЁМ<br><em>КРАСОТУ</em><br>С 2015 ГОДА</h2>
+          <p class="about__text">Nail Kris — это beauty-студия с двумя уютными филиалами в Москве. Мы были основаны в августе 2015 года с одной целью: чтобы каждая клиентка выходила от нас с идеальными ногтями и отличным настроением.</p>
+          <p class="about__text">Наша команда — это опытные мастера ногтевого сервиса и бровисты, которые постоянно совершенствуют своё мастерство. Мы используем только безопасные и проверенные материалы.</p>
+          <div class="about__features">
+            <div class="feature">
+              <div class="feature__icon">✦</div>
+              <div>
+                <strong>Стерильные инструменты</strong>
+                <p>Полная стерилизация после каждого клиента</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature__icon">✦</div>
+              <div>
+                <strong>Безопасные материалы</strong>
+                <p>Гипоаллергенные гель-лаки и покрытия</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature__icon">✦</div>
+              <div>
+                <strong>Онлайн-запись</strong>
+                <p>Удобная запись через yclients 24/7</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section class="booking" id="booking">
+    <div class="container">
+      <div class="booking__inner">
+        <div class="booking__left">
+          <p class="tag">Запись</p>
+          <h2 class="booking__title">ЗАПИШИТЕСЬ<br><em>К НАМ</em></h2>
+          <p class="booking__desc">Выберите удобный способ записи или заполните форму — свяжемся в течение 15 минут.</p>
+          <div class="booking__methods">
+            <a href="#" class="booking__method booking__method--online">
+              <div class="booking__method-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              </div>
+              <div>
+                <strong>Онлайн-запись</strong>
+                <span>через yclients</span>
+              </div>
+              <svg class="arr" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+            <a href="tel:+7" class="booking__method">
+              <div class="booking__method-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1.09h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div>
+                <strong>По телефону</strong>
+                <span>позвонить нам</span>
+              </div>
+              <svg class="arr" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+            <a href="https://wa.me/7" class="booking__method booking__method--wa" target="_blank">
+              <div class="booking__method-icon booking__method-icon--wa">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </div>
+              <div>
+                <strong>WhatsApp</strong>
+                <span>написать нам</span>
+              </div>
+              <svg class="arr" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+            <a href="https://t.me/mos_nail_kris" class="booking__method booking__method--tg" target="_blank">
+              <div class="booking__method-icon booking__method-icon--tg">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+              </div>
+              <div>
+                <strong>Telegram Nail Kris</strong>
+                <span>написать в чат</span>
+              </div>
+              <svg class="arr" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="booking__right">
+          <form class="booking__form" id="bookingForm">
+            <h3>Оставить заявку</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Имя *</label>
+                <input type="text" placeholder="Ваше имя" required />
+              </div>
+              <div class="form-group">
+                <label>Телефон *</label>
+                <input type="tel" placeholder="+7 (___) ___-__-__" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Филиал</label>
+              <select>
+                <option value="">Выберите филиал</option>
+                <option>м. Отрадное — Северный бульвар 2</option>
+                <option>м. Бабушкинская — ул. Менжинского 32/3</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Услуга</label>
+              <select>
+                <option value="">Выберите услугу</option>
+                <option>Маникюр классический</option>
+                <option>Маникюр с гель-лаком</option>
+                <option>Аппаратный маникюр</option>
+                <option>SPA-маникюр</option>
+                <option>Педикюр классический</option>
+                <option>Педикюр с гель-лаком</option>
+                <option>SPA-педикюр</option>
+                <option>Nail Art / Дизайн ногтей</option>
+                <option>Наращивание ногтей</option>
+                <option>Коррекция и окрашивание бровей</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Мастер (необязательно)</label>
+              <select>
+                <option value="">Любой свободный мастер</option>
+                <optgroup label="м. Отрадное">
+                  <option>Айка</option>
+                  <option>Анастасия</option>
+                  <option>Валентина</option>
+                  <option>Дарья</option>
+                  <option>Елена</option>
+                  <option>Оксана</option>
+                  <option>Анна (бровист)</option>
+                </optgroup>
+                <optgroup label="м. Бабушкинская">
+                  <option>Гуля</option>
+                  <option>Ольга</option>
+                  <option>Анна (бровист)</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Дата</label>
+                <input type="date" />
+              </div>
+              <div class="form-group">
+                <label>Время</label>
+                <select>
+                  <option>10:00</option><option>11:00</option><option>12:00</option>
+                  <option>13:00</option><option>14:00</option><option>15:00</option>
+                  <option>16:00</option><option>17:00</option><option>18:00</option>
+                  <option>19:00</option><option>20:00</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Комментарий</label>
+              <textarea placeholder="Пожелания, референсы..." rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Отправить заявку</button>
+            <p class="form-note">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTS -->
+  <section class="contacts" id="contacts">
+    <div class="container">
+      <div class="section-head">
+        <p class="tag">Контакты</p>
+        <h2 class="section-title">КАК НАС <em>НАЙТИ</em></h2>
+      </div>
+      <div class="contacts__grid">
+        <div class="contact-card">
+          <div class="contact-card__num">01</div>
+          <h3>м. Отрадное</h3>
+          <address>Северный бульвар, д. 2</address>
+          <div class="contact-hours">Пн–Вс: 10:00 – 21:00</div>
+          <a href="#" class="btn btn--primary btn--sm">Построить маршрут</a>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card__num">02</div>
+          <h3>м. Бабушкинская</h3>
+          <address>ул. Менжинского, д. 32/3</address>
+          <div class="contact-hours">Пн–Вс: 10:00 – 21:00</div>
+          <a href="#" class="btn btn--primary btn--sm">Построить маршрут</a>
+        </div>
+        <div class="contact-card contact-card--social">
+          <h3>Мы в соцсетях</h3>
+          <p>Следите за нашими работами и акциями</p>
+          <div class="social-links">
+            <a href="https://vk.com/nailkris" target="_blank" class="social-link social-link--vk">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M15.07 2H8.93C3.33 2 2 3.33 2 8.93v6.14C2 20.67 3.33 22 8.93 22h6.14C20.67 22 22 20.67 22 15.07V8.93C22 3.33 20.67 2 15.07 2zm2.95 13.5h-1.64c-.62 0-.81-.5-1.92-1.61-.97-.93-1.39-.93-1.66 0C12.57 15.43 12.2 15.5 11.78 15.5c-2.11 0-3.34-1.43-3.34-3.73C8.44 9.44 9.9 8 11.78 8c.46 0 .82.09 1.13.3.66.46.66 1.01 1.23 1.01.57 0 .9-.49 1.55-.49.72 0 1.31.62 1.31 1.56v.08c0 .5-.1.96-.28 1.38.19.27.38.54.58.79.34.44.68.88.68 1.53 0 .74-.53 1.34-1.96 1.34z"/></svg>
+              ВКонтакте
+            </a>
+            <a href="https://t.me/mos_nail_kris" target="_blank" class="social-link social-link--tg">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+              Telegram Nail Kris
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="#" class="logo">
+            <div class="logo__icon">NK</div>
+            <div class="logo__text">
+              <span class="logo__main">NAIL KRIS</span>
+              <span class="logo__sub">beauty salon</span>
+            </div>
+          </a>
+          <p>Профессиональный ногтевой сервис в Москве. Основан в августе 2015 года.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Навигация</h4>
+          <a href="#branches">Филиалы</a>
+          <a href="#services">Услуги</a>
+          <a href="#team">Мастера</a>
+          <a href="#about">О нас</a>
+          <a href="#contacts">Контакты</a>
+        </div>
+        <div class="footer__col">
+          <h4>Услуги</h4>
+          <a href="#services">Маникюр</a>
+          <a href="#services">Педикюр</a>
+          <a href="#services">Дизайн ногтей</a>
+          <a href="#services">Наращивание</a>
+          <a href="#services">Брови</a>
+        </div>
+        <div class="footer__col">
+          <h4>Филиалы</h4>
+          <p>м. Отрадное<br>Северный бульвар 2</p>
+          <p>м. Бабушкинская<br>ул. Менжинского 32/3</p>
+          <p>Пн–Вс: 10:00 – 21:00</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2025 Nail Kris Beauty Salon. Все права защищены.</span>
+        <span>Политика конфиденциальности</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+    Заявка отправлена! Свяжемся в течение 15 минут.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
