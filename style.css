@@ -1103,6 +1103,27 @@ address { font-style: normal; }
   margin-top: 12px;
 }
 
+.form-group--checkbox { margin-bottom: 20px; }
+.checkbox-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--gray-500);
+  line-height: 1.5;
+}
+.checkbox-label input[type="checkbox"] {
+  width: 18px; height: 18px;
+  flex-shrink: 0;
+  margin-top: 1px;
+  accent-color: var(--purple-500);
+  cursor: pointer;
+  border-radius: 4px;
+}
+.checkbox-label a { color: var(--accent); text-decoration: underline; }
+.checkbox-label a:hover { color: var(--accent-bright); }
+
 /* ===== CONTACTS ===== */
 .contacts {
   padding: 100px 0;
@@ -1231,17 +1252,28 @@ address { font-style: normal; }
   margin-bottom: 12px;
 }
 
+.footer__requisites {
+  font-size: 12px;
+  color: var(--gray-600);
+  text-align: center;
+  padding: 16px 0;
+  border-top: 1px solid var(--gray-800);
+  border-bottom: 1px solid var(--gray-800);
+  margin-bottom: 16px;
+}
+
 .footer__bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 24px;
-  border-top: 1px solid var(--gray-800);
+  padding-top: 16px;
   font-size: 12px;
   color: var(--gray-600);
   flex-wrap: wrap;
   gap: 12px;
 }
+.footer__policy { color: var(--gray-500); transition: color 0.2s; }
+.footer__policy:hover { color: var(--accent); }
 
 /* ===== TOAST ===== */
 .toast {
