@@ -45,15 +45,42 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
-// Form submission
+// Form submission via Web3Forms
 const form = document.getElementById('bookingForm');
 const toast = document.getElementById('toast');
 
-form.addEventListener('submit', (e) => {
+form.addEventListener('submit', async (e) => {
   e.preventDefault();
-  toast.classList.add('show');
-  form.reset();
-  setTimeout(() => toast.classList.remove('show'), 4000);
+
+  const submitBtn = form.querySelector('button[type="submit"]');
+  submitBtn.disabled = true;
+  submitBtn.textContent = 'Отправляем...';
+
+  const formData = new FormData(form);
+  formData.append('access_key', '345d8e20-1cfb-4235-8763-3a40223d3523');
+  formData.append('subject', 'Новая заявка с сайта Nail Kris');
+  formData.append('from_name', 'Сайт nailkris.ru');
+
+  try {
+    const response = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      body: formData
+    });
+    const data = await response.json();
+
+    if (data.success) {
+      toast.classList.add('show');
+      form.reset();
+      setTimeout(() => toast.classList.remove('show'), 4000);
+    } else {
+      alert('Ошибка отправки. Пожалуйста, свяжитесь с нами напрямую.');
+    }
+  } catch {
+    alert('Ошибка соединения. Пожалуйста, свяжитесь с нами напрямую.');
+  }
+
+  submitBtn.disabled = false;
+  submitBtn.textContent = 'Отправить заявку';
 });
 
 // Smooth scroll for anchors
